@@ -1,0 +1,63 @@
+@import 'https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway&display=swap';
+main {
+  background: linear-gradient(0deg, rgb(41, 41, 41) 35%, rgb(255, 255, 255) 90%);
+  height: 200vh;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-family: Raleway, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.slideshow {
+  background-image: url(img/sushi1.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  background-color: rgba(41, 41, 41, 0.5647058824);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 6rem;
+  font-family: Raleway, sans-serif;
+}
+nav ul {
+  padding: 5px 10px 5px 10px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+nav ul img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0;
+}
+nav ul li {
+  font-size: 1em;
+  list-style: none;
+  color: #fff;
+}
+
+footer {
+  background-color: rgba(41, 41, 41, 0.5647058824);
+  justify-content: center;
+  display: flex;
+  height: 17vh;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  color: #fff;
+  padding-top: 15px;
+}/*# sourceMappingURL=style.css.map */
