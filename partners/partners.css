@@ -1,0 +1,19 @@
+@import "https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway&display=swap";
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.background_partners {
+  display: flex;
+  justify-content: center;
+  background-image: url(../bilder/midtards_asian_restaurant_interior_asian_design.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+}
+.background_partners .partners_rubrik {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=partners.css.map */
