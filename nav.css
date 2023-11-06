@@ -1,0 +1,96 @@
+@charset "UTF-8";
+@import "https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway&display=swap";
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-family: Raleway, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body nav {
+  padding: 0px 5px;
+  background: rgba(41, 41, 41, 0.5019607843);
+  display: flex;
+  justify-content: space-evenly;
+}
+body nav .fa-bars {
+  font-size: 30px;
+  color: #fff;
+}
+body nav .checkbtn {
+  display: flex;
+  float: right;
+}
+body nav .restaurang-namn {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+body nav .logo .logo-img {
+  display: flex;
+  width: 100%;
+  min-width: 50px;
+  max-width: 90px;
+  height: auto;
+  border: 0;
+  border-radius: 50%;
+  padding: 4px;
+  margin: 0;
+}
+body nav ul {
+  background: rgba(41, 41, 41, 0.5019607843);
+  position: fixed;
+  top: 90px;
+  right: -100%;
+  text-align: center;
+  transition: 0.4s ease;
+  color: #fff;
+}
+body nav ul li {
+  display: block;
+  margin: 60px 0px;
+  line-height: 20px;
+}
+body nav #check:checked ~ ul {
+  right: 0;
+  width: 30%;
+}
+body nav .checkbtn {
+  display: flex;
+  align-items: center;
+  float: right;
+}
+body nav #check {
+  display: none;
+}
+
+@media screen and (min-width: 820px) {
+  body nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  body nav .fa-bars {
+    display: none;
+  }
+  body nav ul {
+    display: flex; /* Visa länkarna horisontellt */
+    height: auto; /* Återgå till normal höjd */
+    position: static; /* Återgå till normal position */
+    background: none;
+    align-items: center;
+  }
+  body nav ul li {
+    margin: 0; /* Ta bort margin från länkarna */
+    display: flex;
+    justify-content: space-between;
+  }
+  body nav ul li a {
+    margin-right: 20px;
+  }
+}/*# sourceMappingURL=nav.css.map */
