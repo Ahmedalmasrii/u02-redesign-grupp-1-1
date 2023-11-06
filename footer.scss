@@ -1,17 +1,28 @@
-/* Basic reset for styling */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+footer {
+    background-color: #29292990;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 2em;
+  
+    li {
+      color: #fff;
+      padding-top: 15px;
+      display: flex;
+      justify-content: center;
+      list-style: none;
+    }
+  }
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-}
+  .fa-brands {
 
-/* Footer styling */
-.site-footer {
-    height: 100px;
-    background-color: grey;
-}
+font-size: 30px;
+color: white;
+  }
+  
+  @media screen and (min-width: 820px) {
+    footer {
+      justify-content: space-evenly;
+      flex-direction: row;
+    }
+  }
