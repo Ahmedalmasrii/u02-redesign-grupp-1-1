@@ -4,24 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meny</title>
-    <link rel="stylesheet" href="/header.css">
-    <link rel="stylesheet" href="/footer.css">
-    <link rel="stylesheet" href="/style.scss">
+    <link rel="stylesheet" href="../nav.css" />
+    <link rel="stylesheet" href="../footer.css" />
+    <link rel="stylesheet" href="style.scss" />
 </head>
 <body>
 
-<header class="site-header">
-    <nav class="site-nav">
-        <ul>
-            <li><a href="/startsida.html">Hem</a></li>
-            <li><a href="/partners/index.html">Partners</a></li>
-            <li><a href="/nyheter/index.html">Nyheter</a></li>
-            <li><a href="/meny/index.html">Meny</a></li>
-            <li><a href="/prislista/index.html">Prislista</a></li>
-            <li><a href="/kontakt/index.html">Kontakt</a></li>
+    <nav>
+        <input type="checkbox" id="check" />
+        <div class="logo">
+          <img class="logo-img" src="../bilder/Logo-bild-U02.png" alt="Vår logga">
+        </div>
+        <p class="restaurang-namn">Resto Culinair</p>
+        <ul class="links">
+          <li><a href="/startsida.html" class="active"> Hem </a></li>
+          <li><a href="/partners/index.html"> Partners </a></li>
+          <li><a href="/nyheter/index.html"> Nyheter </a></li>
+          <li><a href="/meny/index.html"> Meny</a></li>
+          <li><a href="/prislista/"> Prislista </a></li>
+          <li><a href="/kontakt/index.html"> Kontakt</a></li>
         </ul>
-    </nav>
-</header>
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+      </nav>
 
 
 <!-- Här sitter man och gör layouten för meny -->
