@@ -2,7 +2,6 @@
 .main-startsida {
   height: 700px;
 }
-
 html,
 body {
   margin: 0;
@@ -11,17 +10,22 @@ body {
   box-sizing: border-box;
 }
 
+
+
 .backgrundsbild {
-  background-image: url(bilder/slideshow-bild.png);
+  background-image:url(bilder/slideshow-bild.png);
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
   background-position: center;
+ 
+
 }
 
-@media screen and (min-width: 820px) {
+@media  screen and (min-width : 820px) {
   .backimg {
     background-size: cover;
     background-position: center;
-  }
-}/*# sourceMappingURL=startsida.css.map */
+
+  }  
+}
