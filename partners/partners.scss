@@ -9,18 +9,53 @@ $nav_foot-font: Raleway, sans-serif;
     box-sizing: border-box;
     margin: 0 auto;
 }
-
-.background_partners {
-    display: flex;
-    justify-content: center;
- background-image: url(../bilder/midtards_asian_restaurant_interior_asian_design.png);
+.background{
+background-image: url(../bilder/midtards_asian_restaurant_interior_asian_design.png);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-height: 200px;
-.partners_rubrik{
-    display: flex;
-    justify-content: center ;
-}
 
 }
+.partners_rubrik{
+    color: $text-color;
+    display: flex;
+    justify-content: center ;
+    background-color: $primary-color;
+    height: fit-content;
+    border-radius: 20px;
+    border:1px solid $border-color;
+    width: 200px;
+    padding: 5px;
+}
+
+.box{
+    color:$text-color;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    .box_kort_kött{
+        background-color: $primary-color;
+        border:1px solid $border-color;
+        color: $text-color;
+        width: 50%;
+        border-radius: 20px;
+        margin: 20px 0 0 0;
+        padding: 10px;
+        .kött_kort_innehåll {
+        img{
+            display: flex;
+            width: 150px;
+            height: 150px;
+            border-radius: 20px;
+        }
+        .box_1_text{
+            display:flex ;
+            justify-content: center;
+            font-size: 0.75em;
+            text-decoration: underline;
+        }
+    }  
+    }
+}
+
