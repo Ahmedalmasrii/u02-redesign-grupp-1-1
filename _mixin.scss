@@ -1,0 +1,9 @@
+@mixin mobile-font-size($size) {
+    font-size: 16px;
+  }
+  
+  @mixin desktop-font-size($size) {
+    @media (min-width: 768px) {
+      font-size: 18px;
+    }
+  }
