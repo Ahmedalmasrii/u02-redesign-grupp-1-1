@@ -1,0 +1,15 @@
+@import '../variables';
+@import '../breakpoints';
+@import '../mixin';
+
+.main-nyheter {
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: $text-font;
+
+    h1 {
+        color: $text-color;
+        text-align: center;
+        margin: 2em;
+    }
+}
