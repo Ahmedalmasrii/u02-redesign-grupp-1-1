@@ -1,19 +1,55 @@
+@charset "UTF-8";
 @import "https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway&display=swap";
 * {
   box-sizing: border-box;
   margin: 0 auto;
 }
 
-.background_partners {
-  display: flex;
-  justify-content: center;
+.background {
   background-image: url(../bilder/midtards_asian_restaurant_interior_asian_design.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 200px;
 }
-.background_partners .partners_rubrik {
+
+.partners_rubrik {
+  color: #fff;
   display: flex;
   justify-content: center;
+  background-color: rgba(41, 41, 41, 0.5019607843);
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 20px;
+  border: 1px solid #c87a31;
+  width: 200px;
+  padding: 5px;
+}
+
+.box {
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+}
+.box .box_kort_kött {
+  background-color: rgba(41, 41, 41, 0.5019607843);
+  border: 1px solid #c87a31;
+  color: #fff;
+  width: 50%;
+  border-radius: 20px;
+  margin: 20px 0 0 0;
+  padding: 10px;
+}
+.box .box_kort_kött .kött_kort_innehåll img {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+}
+.box .box_kort_kött .kött_kort_innehåll .box_1_text {
+  display: flex;
+  justify-content: center;
+  font-size: 0.75em;
+  text-decoration: underline;
 }/*# sourceMappingURL=partners.css.map */
