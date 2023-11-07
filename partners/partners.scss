@@ -77,4 +77,27 @@ background-size: cover;
             }
         }  
         }
+        .box_kort_fisk{
+            background-color: $primary-color;
+            border:1px solid $border-color;
+            color: $text-color;
+            width: 50%;
+            border-radius: 20px;
+            margin: 20px 0 0 0;
+            padding: 10px;
+            .fisk_kort_innehåll {
+            img{
+                display: flex;
+                width: 150px;
+                height: 150px;
+                border-radius: 20px;
+            }
+            .box_fisk_text{
+                display:flex ;
+                justify-content: center;
+                font-size: 0.75em;
+                text-decoration: underline;
+            }
+        }
     }
+}
