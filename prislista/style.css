@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .main-startsida {
   display: flex;
   flex-direction: column;
@@ -13,32 +14,63 @@
   border: 2px solid #c87a31;
   padding: 20px;
   text-align: center;
-  background-color: rgba(41, 41, 41, 0.5);
+  background-color: rgba(41, 41, 41, 0.5019607843);
   margin: 10px;
+  border-radius: 43px;
 }
 .main-startsida .border-box p {
-  font-family: Merriweather "light";
+  font-family: Merriweather, serif;
   color: #fff;
 }
 .main-startsida .border-box-2 {
   border: 2px solid #c87a31;
   padding: 20px;
   text-align: center;
-  background-color: rgba(41, 41, 41, 0.5);
-  margin: 10px;
+  background-color: rgba(41, 41, 41, 0.5019607843);
+  margin: 60px 0px;
+  border-radius: 43px;
 }
 .main-startsida .border-box-2 p {
-  font-family: Merriweather "light";
+  font-family: Merriweather, serif;
   color: #fff;
 }
 .main-startsida .border-box-3 {
   border: 2px solid #c87a31;
   padding: 20px;
   text-align: center;
-  background-color: rgba(41, 41, 41, 0.5);
+  background-color: rgba(41, 41, 41, 0.5019607843);
   margin: 10px;
+  border-radius: 43px;
 }
 .main-startsida .border-box-3 p {
-  font-family: Merriweather "light";
+  font-family: Merriweather, serif;
   color: #fff;
+}
+
+.ul-listan,
+.ul-listan-två,
+.ul-listan-tre {
+  flex-direction: column;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ul-listan li,
+.ul-listan-två li,
+.ul-listan-tre li {
+  list-style: none;
+  font-family: Merriweather, serif;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+@media (max-width: 414px) {
+  body {
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=style.css.map */
