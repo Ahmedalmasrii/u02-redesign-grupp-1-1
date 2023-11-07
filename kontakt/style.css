@@ -1,1 +1,56 @@
-/*# sourceMappingURL=style.css.map */
+main {
+  justify-content: center;
+  background-image: url(Kontakt-bakgrundsbild.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(41, 41, 41, 0.5647058824);
+  border-style: solid;
+  border-width: thin;
+  border-color: #c87a31;
+  margin: 20em;
+  padding-top: 2em;
+  border-radius: 40px;
+}
+
+.textarea {
+  width: 20em;
+  height: 8em;
+  color: rgb(201, 196, 189);
+}
+
+.h1 {
+  color: white;
+  display: flex;
+  justify-content: baseline;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.form {
+  color: black;
+}
+
+.input {
+  color: white;
+  border-radius: 8px;
+  color: black;
+}
+
+.p {
+  color: white;
+}
+
+@media (min-width: 414px) {
+  body {
+    font-size: 16px;
+    background-position: center center;
+    background-size: cover;
+  }
+} /*# sourceMappingURL=style.css.map */
