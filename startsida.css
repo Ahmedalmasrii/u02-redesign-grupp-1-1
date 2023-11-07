@@ -1,26 +1,22 @@
 /* Main startsida */
 @import "https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway&display=swap";
-.main-startsida {
-  height: 700px;
-}
-
 html,
 body {
   margin: 0;
   height: 100%;
-  font-family: "Raleway", sans-serif;
+  font-family: Merriweather, serif;
   box-sizing: border-box;
   background: rgba(41, 41, 41, 0.5019607843);
 }
-
-.image-container {
+html .image-container,
+body .image-container {
   position: relative;
   width: 80%;
   max-width: 600px;
   margin: 0 auto;
 }
-
-.image-container img {
+html .image-container img,
+body .image-container img {
   width: 40%;
   border-radius: 45px;
   height: auto;
@@ -29,21 +25,21 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
 }
-
-.centered-btn {
+html .centered-btn,
+body .centered-btn {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 10px 20px;
   background: #9ab0be;
-  color: white;
+  color: #fff;
   border: none;
   cursor: pointer;
   border-radius: 30px;
 }
-
-.backgrundsbild {
+html .backgrundsbild,
+body .backgrundsbild {
   background-image: url(bilder/slideshow-bild.png);
   background-repeat: no-repeat;
   width: 100%;
@@ -53,6 +49,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+html p,
+body p {
+  color: #fff;
+  font-family: Merriweather, serif;
+  display: flex;
+  justify-content: center;
+  text-align: Center;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 820px) {
