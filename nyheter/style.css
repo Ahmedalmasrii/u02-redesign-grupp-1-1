@@ -1,10 +1,14 @@
 .main-nyheter {
-  box-sizing: border-box;
+  background-image: url(../bilder/nyheter-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   margin: 0 auto;
   font-family: Merriweather, serif;
 }
 .main-nyheter h1 {
+  font-family: Merriweather, serif;
   color: #fff;
   text-align: center;
-  margin: 2em;
+  padding: 2em;
 }/*# sourceMappingURL=style.css.map */

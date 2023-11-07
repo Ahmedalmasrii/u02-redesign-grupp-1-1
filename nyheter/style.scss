@@ -3,13 +3,17 @@
 @import '../mixin';
 
 .main-nyheter {
-    box-sizing: border-box;
+    background-image: url(../bilder/nyheter-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     margin: 0 auto;
     font-family: $text-font;
 
     h1 {
+        font-family: $text-font;
         color: $text-color;
         text-align: center;
-        margin: 2em;
+        padding: 2em;
     }
 }
