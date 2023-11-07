@@ -46,7 +46,28 @@
   height: 150px;
   border-radius: 20px;
 }
-.box .box_kort_kött .kött_kort_innehåll .box_1_text {
+.box .box_kort_kött .kött_kort_innehåll .box_kött_text {
+  display: flex;
+  justify-content: center;
+  font-size: 0.75em;
+  text-decoration: underline;
+}
+.box .box_kort_vegi {
+  background-color: rgba(41, 41, 41, 0.5019607843);
+  border: 1px solid #c87a31;
+  color: #fff;
+  width: 50%;
+  border-radius: 20px;
+  margin: 20px 0 0 0;
+  padding: 10px;
+}
+.box .box_kort_vegi .vegi_kort_innehåll img {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+}
+.box .box_kort_vegi .vegi_kort_innehåll .box_vegi_text {
   display: flex;
   justify-content: center;
   font-size: 0.75em;
