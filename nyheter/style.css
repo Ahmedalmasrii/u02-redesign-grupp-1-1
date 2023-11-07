@@ -1,1 +1,10 @@
-/*# sourceMappingURL=style.css.map */
+.main-nyheter {
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-family: Merriweather, serif;
+}
+.main-nyheter h1 {
+  color: #fff;
+  text-align: center;
+  margin: 2em;
+}/*# sourceMappingURL=style.css.map */
