@@ -22,13 +22,13 @@ body .image-container {
 html .image-container img,
 body .image-container img {
   width: 40%;
-  border-radius: 45px;
+  border-radius: 43px;
   height: auto;
   display: block;
   margin-top: 10px;
   -o-object-fit: cover;
      object-fit: cover;
-  border: 2px solid gold;
+  border: 2px solid #c87a31;
 }
 html .centered-btn,
 body .centered-btn {
@@ -37,11 +37,11 @@ body .centered-btn {
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 10px 20px;
-  background: #9ab0be;
+  background: rgba(41, 41, 41, 0.5647058824);
   color: #fff;
-  border: 2px solid gold;
+  border: 2px solid #c87a31;
   cursor: pointer;
-  border-radius: 30px;
+  border-radius: 43px;
 }
 html .backgrundsbild,
 body .backgrundsbild {
@@ -62,13 +62,14 @@ body .backgrundsbild .startbtn {
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 10px 20px;
-  background: #9ab0be;
+  background: rgba(41, 41, 41, 0.5647058824);
   color: #fff;
   border: none;
   cursor: pointer;
-  border-radius: 30px;
+  border-radius: 43px;
   width: 60%;
   height: 10%;
+  font-size: 30px;
 }
 html .undertext-mainbild h2,
 body .undertext-mainbild h2 {
@@ -100,11 +101,11 @@ body .undertext-mainbild p {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 10px 20px;
-    background: #9ab0be;
+    background: rgba(41, 41, 41, 0.5647058824);
     color: #fff;
     border: none;
     cursor: pointer;
-    border-radius: 30px;
+    border-radius: 43px;
     width: 23% !important;
     height: 15%;
   }
@@ -132,7 +133,7 @@ body .undertext-mainbild p {
   }
   .box-bilder .image-container img {
     width: 100%;
-    border-radius: 45px;
+    border-radius: 43px;
     height: auto;
     display: block;
     -o-object-fit: cover;
@@ -144,11 +145,11 @@ body .undertext-mainbild p {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 10px 20px;
-    background: #9ab0be;
+    background: rgba(41, 41, 41, 0.5647058824);
     color: #fff;
-    border: 2px solid gold;
+    border: 2px solid #c87a31;
     cursor: pointer;
-    border-radius: 30px;
+    border-radius: 43px;
     width: 10rem;
     height: 5rem;
   }
