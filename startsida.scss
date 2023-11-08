@@ -14,12 +14,15 @@ body {
   box-sizing: border-box;
   background: $primary-color;
 
+  .restaurang-namn {
+    color: $text-color;
+  }
+
   .image-container {
     position: relative;
     width: 80%;
-    max-width: 600px;
+    max-width: 600p;
     margin: 0 auto;
-   
   }
 
   .image-container img {

@@ -8,11 +8,15 @@ body {
   box-sizing: border-box;
   background: rgba(41, 41, 41, 0.5647058824);
 }
+html .restaurang-namn,
+body .restaurang-namn {
+  color: #fff;
+}
 html .image-container,
 body .image-container {
   position: relative;
   width: 80%;
-  max-width: 600px;
+  max-width: 600p;
   margin: 0 auto;
 }
 html .image-container img,
