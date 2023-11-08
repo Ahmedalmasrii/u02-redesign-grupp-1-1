@@ -10,14 +10,16 @@ footer {
     flex-direction: column;
     width: 100%;
     padding-bottom: 2em;
-  
+  ul{
+    list-style: none;
     li {
-      color: $text-color;
-      padding-top: 15px;
       display: flex;
       justify-content: center;
-      list-style: none;
+      margin-right: 2px;
+      color: $text-color;
+      padding-top: 15px;
     }
+  }
   }
 
   .fa-brands {
