@@ -1,17 +1,25 @@
+@import 'variables';
+@import 'breakpoints';
+@import 'mixin';
+*{
+    font-family: $nav_foot-font;
+}
 footer {
-    background-color: #29292990;
+    background-color: $navFooter-color;
     display: flex;
     flex-direction: column;
     width: 100%;
     padding-bottom: 2em;
-  
+  ul{
+    list-style: none;
     li {
-      color: #fff;
-      padding-top: 15px;
       display: flex;
       justify-content: center;
-      list-style: none;
+      margin-right: 2px;
+      color: $text-color;
+      padding-top: 15px;
     }
+  }
   }
 
   .fa-brands {

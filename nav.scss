@@ -1,5 +1,6 @@
-@import "https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway&display=swap";
-
+@import 'variables';
+@import 'breakpoints';
+@import 'mixin';
 * {
   box-sizing: border-box;
   margin: 0 auto;
@@ -12,13 +13,13 @@ a {
 body {
   nav {
     padding: 0px 5px;
-    background: $primary-color;
+    background: $navFooter-color;
     display: flex;
     justify-content: space-evenly;
 
     .fa-bars {
       font-size: 30px;
-      color: #fff;
+      color: $text-color;
     }
 
     .checkbtn {

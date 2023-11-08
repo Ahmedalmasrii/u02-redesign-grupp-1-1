@@ -1,5 +1,9 @@
+* {
+  font-family: Raleway, sans-serif;
+}
+
 footer {
-  background-color: rgba(41, 41, 41, 0.5647058824);
+  background-color: #292929;
   display: flex;
   flex-direction: column;
   width: 100%;
