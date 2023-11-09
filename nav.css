@@ -25,6 +25,9 @@ body nav .checkbtn {
   float: right;
 }
 body nav .restaurang-namn {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  color: #fff;
   font-size: 24px;
   display: flex;
   justify-content: center;
