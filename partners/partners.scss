@@ -158,3 +158,16 @@ background-size: cover, 100%;
 }
 }
 }
+
+@media screen and (min-width: 820px){
+    .box img{
+float: left
+    }
+    .box .box_fisk_text .box_kött_text .box_vegi_text .box_mejeri_text .box_torrvaror_text{
+
+align-items: center;
+padding-left: 20px;   
+padding-right: 20px; 
+}
+
+}
