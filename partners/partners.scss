@@ -5,21 +5,23 @@
 *{
     box-sizing: border-box;
     margin: 0 auto;
+    font-family: $text-font;
 }
-.background{
+body{
 background-image: url(../bilder/midtards_asian_restaurant_interior_asian_design.png);
 background-repeat: no-repeat;
 background-position: center;
-background-size: cover;
+background-size: cover, 100%;
 
 }
 .partners_rubrik{
+    margin-top: 10px;
     color: $text-color;
     display: flex;
     justify-content: center ;
     background-color: $primary-color;
     height: fit-content;
-    border-radius: 20px;
+    border-radius: 43px;
     border:1px solid $border-color;
     width: 200px;
     padding: 5px;
@@ -36,7 +38,7 @@ background-size: cover;
         border:1px solid $border-color;
         color: $text-color;
         width: 50%;
-        border-radius: 20px;
+        border-radius: 43px;
         margin: 20px 0 0 0;
         padding: 10px;
         .kött_kort_innehåll {
@@ -44,13 +46,14 @@ background-size: cover;
             display: flex;
             width: 150px;
             height: 150px;
-            border-radius: 20px;
+            border-radius: 43px;
         }
         .box_kött_text{
             display:flex ;
             justify-content: center;
             font-size: 0.75em;
-            text-decoration: underline;
+            margin: 5px;
+            line-height: 2em;
         }
     }  
     }
@@ -59,7 +62,7 @@ background-size: cover;
             border:1px solid $border-color;
             color: $text-color;
             width: 50%;
-            border-radius: 20px;
+            border-radius: 43px;
             margin: 20px 0 0 0;
             padding: 10px;
             .vegi_kort_innehåll {
@@ -67,13 +70,14 @@ background-size: cover;
                 display: flex;
                 width: 150px;
                 height: 150px;
-                border-radius: 20px;
+                border-radius: 43px;
             }
             .box_vegi_text{
                 display:flex ;
                 justify-content: center;
-                font-size: 0.75em;
-                text-decoration: underline;
+                font-size: 0.75em;;
+                margin: 5px;
+                line-height: 2em;
             }
         }  
         }
@@ -82,7 +86,7 @@ background-size: cover;
             border:1px solid $border-color;
             color: $text-color;
             width: 50%;
-            border-radius: 20px;
+            border-radius: 43px;
             margin: 20px 0 0 0;
             padding: 10px;
             .fisk_kort_innehåll {
@@ -90,13 +94,14 @@ background-size: cover;
                 display: flex;
                 width: 150px;
                 height: 150px;
-                border-radius: 20px;
+                border-radius: 43px;
             }
             .box_fisk_text{
                 display:flex ;
                 justify-content: center;
                 font-size: 0.75em;
-                text-decoration: underline;
+                margin: 5px;
+                line-height: 2em;                
             }
         }
     }
@@ -106,7 +111,7 @@ background-size: cover;
         border:1px solid $border-color;
         color: $text-color;
         width: 50%;
-        border-radius: 20px;
+        border-radius: 43px;
         margin: 20px 0 0 0;
         padding: 10px;
         .mejeri_kort_innehåll {
@@ -114,13 +119,15 @@ background-size: cover;
             display: flex;
             width: 150px;
             height: 150px;
-            border-radius: 20px;
+            border-radius: 43px;
         }
         .box_mejeri_text{
             display:flex ;
             justify-content: center;
             font-size: 0.75em;
-            text-decoration: underline;
+            margin: 5px;
+            line-height: 2em;
+
         }
     }
 }
@@ -129,21 +136,24 @@ background-size: cover;
     border:1px solid $border-color;
     color: $text-color;
     width: 50%;
-    border-radius: 20px;
+    border-radius: 43px;
     margin: 20px 0 0 0;
     padding: 10px;
+    margin-bottom: 20px;
     .torrvaror_kort_innehåll {
     img{
         display: flex;
         width: 150px;
         height: 150px;
-        border-radius: 20px;
+        border-radius: 43px;
+
     }
     .box_torrvaror_text{
         display:flex ;
         justify-content: center;
         font-size: 0.75em;
-        text-decoration: underline;
+        margin: 5px;
+        line-height: 2em;
     }
 }
 }
