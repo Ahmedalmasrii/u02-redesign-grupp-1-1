@@ -1,5 +1,7 @@
+@import "https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway&display=swap";
 body {
-  background: radial-gradient(circle, rgb(66, 66, 66) 0%, rgb(10, 2, 2) 100%);
+  background: linear-gradient(0deg, rgb(41, 41, 41) 61%, rgb(255, 255, 255) 100%);
+  font-family: Merriweather, serif;
 }
 
 .gallery-box {
@@ -10,13 +12,13 @@ body {
 
 div.gallery {
   margin: 5px;
-  border: 3px solid #C87A31;
+  border: 2px solid #c87a31;
   border-radius: 43px;
   float: left;
   width: 180px;
 }
 div.gallery:hover {
-  border: 1px solid #777;
+  border: 2px solid #777;
 }
 div.gallery img {
   width: 100%;
@@ -33,9 +35,11 @@ div.desc {
   width: 80%;
   display: flex;
   justify-content: center;
-  border: 3px solid #C87A31;
+  border: 2px solid #c87a31;
+  padding: 0.5em;
   border-radius: 43px;
   height: auto;
+  background-color: rgba(119, 119, 119, 0.5);
   margin: 1em auto;
 }
 .text-box p {
@@ -54,7 +58,7 @@ div.desc {
 .container {
   display: flex;
   align-items: center;
-  border: 3px solid #C87A31;
+  border: 2px solid #c87a31;
   border-radius: 43px;
   width: 60%;
   margin: 0.5em auto;
@@ -75,6 +79,7 @@ div.desc {
 
 p {
   color: #fff;
+  font-family: Merriweather, serif;
 }
 
 .desc {
@@ -86,4 +91,9 @@ h2 {
   text-align: center;
   display: flex;
   justify-content: center;
+  font-family: Raleway, sans-serif;
+}
+
+.titel {
+  color: #c87a31;
 }/*# sourceMappingURL=style.css.map */
