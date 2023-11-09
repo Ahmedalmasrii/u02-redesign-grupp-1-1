@@ -143,4 +143,15 @@ body {
   font-size: 0.75em;
   margin: 5px;
   line-height: 2em;
+}
+
+@media screen and (min-width: 820px) {
+  .box img {
+    float: left;
+  }
+  .box .box_fisk_text .box_kött_text .box_vegi_text .box_mejeri_text .box_torrvaror_text {
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }/*# sourceMappingURL=partners.css.map */
