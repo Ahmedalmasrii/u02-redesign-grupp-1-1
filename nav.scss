@@ -28,6 +28,9 @@ body {
     }
 
     .restaurang-namn {
+      font-family: $nav_foot-font;
+      font-weight: bold;
+      color: $text-color;
       font-size: 24px;
       display: flex;
       justify-content: center;
