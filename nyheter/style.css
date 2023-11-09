@@ -26,18 +26,23 @@ h1 {
 }
 
 .news-label {
+  display: flex;
+  justify-content: space-between;
   background-color: rgba(41, 41, 41, 0.5019607843);
   border: 1px solid #c87a31;
   color: #fff;
   border-radius: 20px;
-  text-align: center;
-  padding: 5px;
+  padding: 15px;
   margin-bottom: 2em;
   cursor: pointer;
   font-size: 18px;
-  display: block;
   box-sizing: border-box;
   width: 90%;
+}
+
+.arrow {
+  margin-right: 5%;
+  color: #c87a31;
 }
 
 .news-content {
