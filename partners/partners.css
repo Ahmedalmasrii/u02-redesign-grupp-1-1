@@ -148,10 +148,9 @@ body {
 @media screen and (min-width: 820px) {
   .box img {
     float: left;
+    padding-right: 5px;
   }
-  .box .box_fisk_text .box_kött_text .box_vegi_text .box_mejeri_text .box_torrvaror_text {
-    align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
+  .box h2 {
+    padding-top: 50px;
   }
 }/*# sourceMappingURL=partners.css.map */
