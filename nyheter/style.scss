@@ -21,7 +21,7 @@
   .news-container {
       margin: auto;
       padding: 2em;
-      width: 50%;
+      width: 90%;
   }
 
   .news-button {
@@ -52,8 +52,16 @@
       display: none;
       padding: 10px;
       text-align: justify;
+      background-color: $primary-color;
+      border-radius: 20px;
   }
 
   .news-button:checked + .news-label + .news-content {
       display: block;
+  }
+
+  @media screen and (min-width: 820px){
+    .news-container {
+        width: 50%;
+    }
   }
