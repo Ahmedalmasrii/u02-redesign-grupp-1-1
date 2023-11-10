@@ -2,66 +2,70 @@
 @import '../breakpoints';
 @import '../mixin';
 
-.main-nyheter {
+body {
     background-image: url(../bilder/nyheter-background.png);
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
+    width: 100%;
+    height: 100vh;
+    margin-top: auto;
     font-family: $text-font;
     color: $text-color;
     padding-bottom: 15%;
+
+h1 {
+    @include heading-style;
 }
-    h1 {
-        font-family: $text-font;
-        color: $text-color;
-        text-align: center;
-        padding: 2em;
-    }
-  
-  .news-container {
-      margin: auto;
-      padding: 2em;
-      width: 90%;
-  }
+}
 
-  .news-button {
-      display: none;
-  }
+.news-container {
+    padding: 2em;
+    width: 90%;
+}
 
-  .news-label {
-      display: flex;
-      justify-content: space-between;
-      background-color: $primary-color;
-      border:1px solid $border-color;
-      color: $text-color;
-      border-radius: 20px;
-      padding: 15px;
-      margin-bottom: 2em;
-      cursor: pointer;
-      font-size: 18px;
-      box-sizing: border-box;
-      width: 90%;
-    }
-      .arrow {
-         margin-right: 5%;
-         color: $border-color;
-      }
-  
+.news-button {
+    display: none;
+}
 
-  .news-content {
-      display: none;
-      padding: 10px;
-      text-align: justify;
-      background-color: $primary-color;
-      border-radius: 20px;
-  }
+.news-label {
+    display: flex;
+    justify-content: space-between;
+    background-color: $primary-color;
+    border:1px solid $border-color;
+    color: $text-color;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 2em;
+    cursor: pointer;
+    font-size: 18px;
+    box-sizing: border-box;
+    width: 90%;
+}
 
-  .news-button:checked + .news-label + .news-content {
-      display: block;
-  }
+.arrow {
+    margin-right: 5%;
+    color: $border-color;
+}
 
-  @media screen and (min-width: 820px){
-    .news-container {
-        width: 50%;
-    }
-  }
+.news-content {
+    display: none;
+    padding: 10px;
+    text-align: justify;
+    background-color: $primary-color;
+    border-radius: 20px;
+}
+
+.news-button:checked + .news-label + .news-content {
+    display: block;
+}
+
+@media screen and (min-width: 820px){
+.news-container {
+    width: 50%;
+}
+
+.three-news-block {
+    margin-top: 10%;
+    margin-bottom: 18%;
+}
+}
