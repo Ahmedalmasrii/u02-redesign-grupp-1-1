@@ -42,80 +42,78 @@
 
     <main>
       <h1>Kontakta oss</h1>
-      <section class="form1">
+      <section>
         <form id="kundinfo">
-          <p>Förnamn</p>
-          <input type="text" />
-          <p>Efternamn</p>
+          <label for="förnamn">Förnamn</label>
+          <input type="text" id="förnamn" />
 
-          <input type="text" /><br />
-          <p>Adress</p>
+          <label for="efternamn">Efternamn</label>
+          <input type="text" id="efternamn" />
 
-          <input type="text" /><br />
-          <p>Postnummer</p>
+          <label for="adress">Adress</label>
+          <input type="text" id="adress" />
 
-          <input type="text" /><br />
-          <p>Stad</p>
+          <label for="postnummer">Postnummer</label>
+          <input type="text" id="postnummer" />
 
-          <input type="text" />
+          <label for="stad">Stad</label>
+          <input type="text" id="stad" />
         </form>
-        <br /><br />
-
-        <section class="form2">
-          <form id="paket">
-            <p>
-              Välj paket<br /><br />
-              Paket 1<br />
-              <input type="checkbox" /><br />
-              Paket 2<br />
-              <input type="checkbox" /><br />
-              Paket 3<br />
-              <input type="checkbox" /><br /><br />
-              Val av varmrätt<br />
-              <input type="text" /><br />
-            </p>
-          </form>
-        </section>
-        <section class="form3">
-          <form id="kundinfo2">
-            <p>Telefonnummer</p>
-            <input type="text" /><br />
-            <p>Emailadress</p>
-            <input type="text" /><br />
-            <p>Betalmetod</p>
-            <input type="text" /><br />
-            <p>Övrigt</p>
-            <textarea form="form_id">
-              Här kan du skriva in allergier eller andra önskemål
-              </textarea
-            ><br />
-            <input type="submit" />
-          </form>
-        </section>
-
-        <footer>
-          <ul>
-            <li>Öppettider:</li>
-            <li>Måndag - fredag: 09:00 - 16:00</li>
-            <li>Lördag - Söndag: Stängt</li>
-          </ul>
-          <ul>
-            <li>Kontakt:</li>
-            <li>Email: restoculinair@grupp1.se</li>
-            <li>Telefon: +0123 456 789</li>
-          </ul>
-
-          <ul>
-            <li>Följ oss:</li>
-            <a href="https://www.instagram.com/" target="_blank">
-              <i class="fa-brands fa-instagram"></i
-            ></a>
-            <a href="https://www.facebook.com/" target="_blank">
-              <i class="fa-brands fa-facebook-f"></i>
-            </a>
-          </ul>
-        </footer>
       </section>
+
+      <section>
+        <form id="paket">
+          <h2>Välj paket</h2>
+
+          <label for="paket1">Paket 1</label>
+          <input type="checkbox" id="paket1" />
+          <label for="paket2">Paket 2</label>
+          <input type="checkbox" id="paket" />
+          <label for="paket3">Paket 3</label>
+          <input type="checkbox" id="paket3" />
+          <label for="varmrätt">Val av varmrätt</label>
+          <input type="text" id="val" />
+        </form>
+      </section>
+      <section>
+        <form id="kundinfo2">
+          <label for="telefonnummer">Telefonnummer</label>
+          <input type="text" id="telefonnummer" />
+          <label for="mejl">Mejl</label>
+          <input type="text" id="mejl" />
+          <label for="betalmetod">Betalmetod</label>
+          <input type="text" id="betalmetod" />
+          <label for="övrigt">Övrigt</label>
+          <textarea form="form_id">
+Här kan du skriva in allergier eller andra önskemål
+              </textarea
+          ><br />
+          <input type="submit" />
+        </form>
+      </section>
+
+      <footer>
+        <ul>
+          <li>Öppettider:</li>
+          <li>Måndag - fredag: 09:00 - 16:00</li>
+          <li>Lördag - Söndag: Stängt</li>
+        </ul>
+        <ul>
+          <li>Kontakt:</li>
+          <li>Email: restoculinair@grupp1.se</li>
+          <li>Telefon: +0123 456 789</li>
+        </ul>
+
+        <ul>
+          <li>Följ oss:</li>
+          <a href="https://www.instagram.com/" target="_blank">
+            <i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://www.facebook.com/" target="_blank">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+        </ul>
+      </footer>
     </main>
   </body>
 </html>
