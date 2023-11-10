@@ -9,13 +9,13 @@ body {
     width: 100%;
     height: 100vh;
     margin-top: auto;
-    font-family: $text-font;
     color: $text-color;
     padding-bottom: 15%;
+}
 
 h1 {
     @include heading-style;
-}
+    font-family: $text-font;
 }
 
 .news-container {
@@ -38,6 +38,7 @@ h1 {
     margin-bottom: 2em;
     cursor: pointer;
     font-size: 18px;
+    font-family: $text-font;
     box-sizing: border-box;
     width: 90%;
 }
