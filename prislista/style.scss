@@ -1,6 +1,8 @@
 @import '../variables';
 @import '../breakpoints';
 @import '../mixin';
+@include heading-style;
+
 
 .main-startsida {
   display: flex;
@@ -12,6 +14,10 @@
   background-position: center;
   width: 100%;
   height: 100vh;
+
+  h1 {
+    font-family: $text-font;
+}
 
   .border-box {
     border: 2px solid $border-color;
