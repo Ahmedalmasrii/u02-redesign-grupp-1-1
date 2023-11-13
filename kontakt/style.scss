@@ -3,16 +3,21 @@
 @import "../mixin";
 
 body {
-}
-
-main {
-  justify-content: center;
-  display: center;
   background-image: url(Kontakt-bakgrundsbild.png);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover, 100%;
   background-position: center;
+}
+
+main {
+  justify-content: center;
+  display: center;
+}
+
+h1 {
+  @include heading-style;
+  font-family: $text-font;
 }
 
 section {
@@ -23,21 +28,24 @@ section {
   background-color: #29292990;
   width: 80%;
   padding: 10px;
-  font-family: $text-font;
 }
 
-#kundinfo {
+.kundinfo_box {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  background-color: #29292990;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #c87a31;
-  border-radius: 43px;
-  color: $text-color;
-  width: 70%;
-  padding: 20px;
+
+  #kundinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #29292990;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #c87a31;
+    border-radius: 43px;
+    color: $text-color;
+    width: 70%;
+    padding: 20px;
+  }
 }
 
 #paket {
@@ -57,6 +65,7 @@ section {
     margin: 20px;
     display: flex;
     justify-content: center;
+    font-family: $text-font;
   }
 }
 
@@ -82,15 +91,14 @@ textarea {
   border-radius: 2px;
 }
 
-h1 {
-  color: white;
-  margin-bottom: 5px;
-}
-
 .input {
   background-color: white;
   border-radius: 8px;
   color: black;
+}
+
+label {
+  font-family: $text-font;
 }
 
 @media screen and (min-width: $desktop-screen) {
