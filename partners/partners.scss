@@ -15,7 +15,9 @@ background-position: center;
 background-size: cover, 100%;
 
 }
-.partners_rubrik{
+.partners_rubrik { 
+    @include heading-style;
+    font-family: $text-font;
     margin-top: 10px;
     display: flex;
     justify-content: center ;
@@ -26,10 +28,7 @@ background-size: cover, 100%;
     width: 200px;
     padding: 5px;
 }
-h1{
-    @include heading-style;
-    font-family: $text-font;
-}
+
 h2{
     font-family: $text-font;
     color: $text-color;
