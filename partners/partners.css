@@ -13,19 +13,6 @@ body {
 
 .partners_rubrik {
   margin-top: 10px;
-  display: flex;
-  justify-content: center;
-  background-color: rgba(41, 41, 41, 0.5019607843);
-  height: -moz-fit-content;
-  height: fit-content;
-  border-radius: 43px;
-  border: 2px solid #c87a31;
-  width: 200px;
-  padding: 5px;
-}
-
-h1 {
-  margin-top: 10px;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -37,6 +24,15 @@ h1 {
   width: 200px;
   padding: 5px;
   font-family: Merriweather, serif;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(41, 41, 41, 0.5019607843);
+  height: fit-content;
+  border-radius: 43px;
+  border: 2px solid #c87a31;
+  width: 200px;
+  padding: 5px;
 }
 
 h2 {
