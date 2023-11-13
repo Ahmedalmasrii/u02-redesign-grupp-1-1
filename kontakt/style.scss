@@ -25,7 +25,7 @@ section {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: #29292990;
+  background-color: $primary-color;
   width: 80%;
   padding: 10px;
 }
@@ -37,10 +37,10 @@ section {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: #29292990;
+    background-color: $primary-color;
     border-style: solid;
     border-width: 2px;
-    border-color: #c87a31;
+    border-color: $border-color;
     border-radius: 43px;
     color: $text-color;
     width: 70%;
@@ -52,10 +52,10 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-color: #29292990;
+  background-color: $primary-color;
   border-style: solid;
   border-width: 2px;
-  border-color: #c87a31;
+  border-color: $border-color;
   border-radius: 43px;
   color: $text-color;
   width: 70%;
@@ -73,10 +73,10 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-color: #29292990;
+  background-color: $primary-color;
   border-style: solid;
   border-width: 2px;
-  border-color: #c87a31;
+  border-color: $border-color;
   border-radius: 43px;
   color: $text-color;
   width: 70%;
@@ -87,7 +87,7 @@ textarea {
   width: 12em;
   height: 8em;
   color: rgb(201, 196, 189);
-  border-color: #c87a31;
+  border-color: $border-color;
   border-radius: 2px;
 }
 
