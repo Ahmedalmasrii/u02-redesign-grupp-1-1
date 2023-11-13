@@ -10,7 +10,7 @@
   width: 100%;
   height: 100vh;
 }
-.main-startsida h1 {
+.main-startsida .pris-lista-rubrik {
   margin-top: 10px;
   color: #fff;
   display: flex;

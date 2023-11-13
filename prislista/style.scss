@@ -15,7 +15,7 @@
   height: 100vh;
 
 
-  h1 {
+  .pris-lista-rubrik {
     @include heading-style;
     font-family: $text-font;
 }
