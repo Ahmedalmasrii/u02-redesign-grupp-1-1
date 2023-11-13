@@ -2,7 +2,6 @@
 * {
   box-sizing: border-box;
   margin: 0 auto;
-  font-family: Merriweather, serif;
 }
 
 body {
@@ -14,6 +13,19 @@ body {
 
 .partners_rubrik {
   margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(41, 41, 41, 0.5019607843);
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 43px;
+  border: 2px solid #c87a31;
+  width: 200px;
+  padding: 5px;
+}
+
+h1 {
+  margin-top: 10px;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -24,6 +36,12 @@ body {
   border: 2px solid #c87a31;
   width: 200px;
   padding: 5px;
+  font-family: Merriweather, serif;
+}
+
+h2 {
+  font-family: Merriweather, serif;
+  color: #fff;
 }
 
 .box {
@@ -43,6 +61,7 @@ body {
   padding: 10px;
 }
 .box .box_kort_kött .kött_kort_innehåll img {
+  font-family: Merriweather, serif;
   display: flex;
   width: 150px;
   height: 150px;
