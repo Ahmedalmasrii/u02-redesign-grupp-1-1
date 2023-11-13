@@ -4,3 +4,16 @@ $border-color: #c87a31;
 $text-color: #fff;
 $text-font: Merriweather, serif;
 $nav_foot-font: Raleway, sans-serif;
+
+@mixin heading-style {
+    margin-top: 10px;
+    color: $text-color;
+    display: flex;
+    justify-content: center;
+    background-color: $primary-color;
+    height: fit-content;
+    border-radius: 43px;
+    border: 2px solid $border-color;
+    width: 200px;
+    padding: 5px;
+  }
