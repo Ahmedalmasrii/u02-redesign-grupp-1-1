@@ -2,8 +2,13 @@
 @import '../breakpoints';
 @import '../mixin';
 
-body {
-    background: linear-gradient(0deg, rgba(41,41,41,1) 61%, rgba(255,255,255,1) 100%);
+.main-meny {
+   background: linear-gradient(0deg, rgba(41,41,41,1) 61%, rgba(255,255,255,1) 100%);
+    
+    h1 {
+        @include heading-style;
+        font-family: $text-font;
+    }
     
 }
 
@@ -15,14 +20,13 @@ body {
 }
 
 
+
 div.gallery {
     margin: 5px;
     border: 2px solid $border-color;
     border-radius: 43px;
     float: left;
     width: 180px;
-
-    
   
     &:hover {
       border: 2px solid #777;
@@ -50,8 +54,6 @@ div.gallery {
     height: auto;
     background-color: rgba(119, 119, 119, 0.5);
     margin: 1em auto; // 1=top and bottom -- auto=left and right
-    
-    
 
     p {
         text-align: center;
@@ -104,16 +106,16 @@ p {
 }
 
 h2 {
-    color: #fff;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    font-family: $nav_foot-font; 
-    font-size: 35px;
-
+    color: #fff;
 }
 
-.titel {
-    color: $border-color;
-}
-
+@mixin mobile-font-size($size) {
+    font-size: 16px;
+  }
+  
+  @mixin desktop-font-size($size) {
+    @media (min-width: 768px) {
+      font-size: 18px;
+    }
+  }

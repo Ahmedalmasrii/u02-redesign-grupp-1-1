@@ -1,6 +1,21 @@
-body {
+
+.main-meny {
   background: linear-gradient(0deg, rgb(41, 41, 41) 61%, rgb(255, 255, 255) 100%);
 }
+.main-meny h1 {
+  margin-top: 10px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(41, 41, 41, 0.5019607843);
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 43px;
+  border: 2px solid #c87a31;
+  width: 200px;
+  padding: 5px;
+  font-family: Merriweather, serif;
+
 
 .gallery-box {
   display: flex;
@@ -85,14 +100,6 @@ p {
 }
 
 h2 {
-  color: #fff;
   text-align: center;
-  display: flex;
-  justify-content: center;
-  font-family: Raleway, sans-serif;
-  font-size: 35px;
-}
-
-.titel {
-  color: #c87a31;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
