@@ -79,7 +79,7 @@ div.gallery {
     width: 60%;
     margin: 0.5em auto;
     height: 10em;
-    // background-color: #777;
+    
 
     img {
         width: 55%;
@@ -113,6 +113,8 @@ h2 {
     display: flex;
     justify-content: center;
     font-family: $nav_foot-font; 
+    font-size: 35px;
+
 }
 
 .titel {
