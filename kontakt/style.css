@@ -1,11 +1,29 @@
-main {
-  justify-content: center;
-  display: center;
+body {
   background-image: url(Kontakt-bakgrundsbild.png);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover, 100%;
   background-position: center;
+}
+
+main {
+  justify-content: center;
+  display: center;
+}
+
+h1 {
+  margin-top: 10px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(41, 41, 41, 0.5019607843);
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 43px;
+  border: 2px solid #c87a31;
+  width: 200px;
+  padding: 5px;
+  font-family: Merriweather, serif;
 }
 
 section {
@@ -16,10 +34,12 @@ section {
   background-color: rgba(41, 41, 41, 0.5647058824);
   width: 80%;
   padding: 10px;
-  font-family: Merriweather, serif;
 }
 
-#kundinfo {
+.kundinfo_box {
+  display: flex;
+}
+.kundinfo_box #kundinfo {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -50,6 +70,7 @@ section {
   margin: 20px;
   display: flex;
   justify-content: center;
+  font-family: Merriweather, serif;
 }
 
 #kundinfo2 {
@@ -74,15 +95,14 @@ textarea {
   border-radius: 2px;
 }
 
-h1 {
-  color: white;
-  margin-bottom: 5px;
-}
-
 .input {
   background-color: white;
   border-radius: 8px;
   color: black;
+}
+
+label {
+  font-family: Merriweather, serif;
 }
 
 @media screen and (min-width: 768px) {
