@@ -5,8 +5,9 @@
 *{
     box-sizing: border-box;
     margin: 0 auto;
-    font-family: $text-font;
+    
 }
+
 body{
 background-image: url(../bilder/midtards_asian_restaurant_interior_asian_design.png);
 background-repeat: no-repeat;
@@ -16,7 +17,6 @@ background-size: cover, 100%;
 }
 .partners_rubrik{
     margin-top: 10px;
-    color: $text-color;
     display: flex;
     justify-content: center ;
     background-color: $primary-color;
@@ -25,6 +25,14 @@ background-size: cover, 100%;
     border:2px solid $border-color;
     width: 200px;
     padding: 5px;
+}
+h1{
+    @include heading-style;
+    font-family: $text-font;
+}
+h2{
+    font-family: $text-font;
+    color: $text-color;
 }
 
 .box{
@@ -43,6 +51,7 @@ background-size: cover, 100%;
         padding: 10px;
         .kött_kort_innehåll {
         img{
+            font-family: $text-font;
             display: flex;
             width: 150px;
             height: 150px;
