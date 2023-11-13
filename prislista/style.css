@@ -76,15 +76,4 @@
   list-style: none;
   font-family: Merriweather, serif;
   color: #fff;
-}
-
-@media (min-width: 768px) {
-  body {
-    font-size: 18px;
-  }
-}
-@media (max-width: 414px) {
-  body {
-    font-size: 16px;
-  }
 }/*# sourceMappingURL=style.css.map */
