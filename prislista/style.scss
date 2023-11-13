@@ -15,7 +15,7 @@
   height: 100vh;
 
 
-  h1 {
+  .pris-lista-rubrik {
     @include heading-style;
     font-family: $text-font;
 }
@@ -78,16 +78,3 @@ li{
   }
 }
 
-// Exempel koda här för desktop styling
-@media (min-width: $desktop-screen) {
-  body {
-    font-size: 18px;
-  }
-}
-
-// För mobil
-@media (max-width: $mobile-screen) {
-  body {
-    font-size: 16px;
-  }
-}
