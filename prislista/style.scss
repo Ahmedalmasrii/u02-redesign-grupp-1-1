@@ -77,4 +77,19 @@ li{
     color:$text-color;
   }
 }
+@media (max-width: $desktop-screen) {
+  .main-startsida {
+    padding-top: 60px; // Justera topp padding för att undvika överlappning med navigeringsfältet
+    padding-bottom: 60px; // Justera botten padding för att undvika överlappning med footern
+  }
 
+  .border-box,
+  .border-box-2,
+  .border-box-3 {
+    margin: 10px 0; // Justera marginal för att undvika överlappning med föregående och efterföljande boxar
+  }
+
+  .pris-lista-rubrik {
+    margin-top: 10px; // Justera toppmarginal för h1 för att undvika överlappning med navigeringsfältet
+  }
+}

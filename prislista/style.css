@@ -76,4 +76,19 @@
   list-style: none;
   font-family: Merriweather, serif;
   color: #fff;
+}
+
+@media (max-width: 768px) {
+  .main-startsida {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .border-box,
+  .border-box-2,
+  .border-box-3 {
+    margin: 10px 0;
+  }
+  .pris-lista-rubrik {
+    margin-top: 10px;
+  }
 }/*# sourceMappingURL=style.css.map */
