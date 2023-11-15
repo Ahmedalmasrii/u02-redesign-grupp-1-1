@@ -2,21 +2,30 @@
 @import '../breakpoints';
 @import '../mixin';
 
+body {
+  background-image: url(../bilder/asian_chef.png);
+  background-size: cover,100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+
+}
+
 .main-meny {
-   background: linear-gradient(0deg, rgba(41,41,41,1) 61%, rgba(255,255,255,1) 100%);
-    
-    h1 {
-        @include heading-style;
-        font-family: $text-font;
-    }
+  background: #29292995;
+  width: 90%
     
 }
 
+.titel {
+  @include heading-style;
+  font-family: $text-font;
+}
 
 .gallery-box {
     display: flex;
     justify-content: center;
-    margin: 1em;
+    padding: 1em;
 }
 
 
@@ -25,17 +34,17 @@ div.gallery {
     margin: 5px;
     border: 2px solid $border-color;
     border-radius: 43px;
-    float: left;
     width: 180px;
   
     &:hover {
-      border: 2px solid #777;
+      border-color: $text-color;
     }
   
     img {
       width: 100%;
       height: auto;
       border-radius: 43px;
+      padding: 4px;
     }
   }
   
@@ -52,7 +61,7 @@ div.gallery {
     padding: 0.5em;
     border-radius: 43px;
     height: auto;
-    background-color: rgba(119, 119, 119, 0.5);
+    background-color: $primary-color;
     margin: 1em auto; // 1=top and bottom -- auto=left and right
 
     p {
@@ -85,6 +94,7 @@ div.gallery {
         min-width: 117px;
         border-radius: 43px;
         vertical-align: middle;
+        background-color: $primary-color;
     }
 
    
@@ -97,21 +107,23 @@ div.gallery {
 }
 
 p {
-    color: #fff;
+    color: $text-color;
     font-family: $text-font;
 }
 
 .desc {
-    color: #fff;
+    color: $text-color;
 }
 
 h2 {
     text-align: center;
-    color: #fff;
+    color: $text-color;
 }
 
 @mixin mobile-font-size($size) {
     font-size: 16px;
+
+   
   }
   
   @mixin desktop-font-size($size) {

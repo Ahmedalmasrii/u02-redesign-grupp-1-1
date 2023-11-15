@@ -1,8 +1,16 @@
+body {
+  background-image: url(../bilder/asian_chef.png);
+  background-size: cover, 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 .main-meny {
-  background: linear-gradient(0deg, rgb(41, 41, 41) 61%, rgb(255, 255, 255) 100%);
+  background: rgba(41, 41, 41, 0.5843137255);
+  width: 90%;
 }
-.main-meny h1 {
+
+.titel {
   margin-top: 10px;
   color: #fff;
   display: flex;
@@ -15,28 +23,28 @@
   width: 200px;
   padding: 5px;
   font-family: Merriweather, serif;
-
+}
 
 .gallery-box {
   display: flex;
   justify-content: center;
-  margin: 1em;
+  padding: 1em;
 }
 
 div.gallery {
   margin: 5px;
   border: 2px solid #c87a31;
   border-radius: 43px;
-  float: left;
   width: 180px;
 }
 div.gallery:hover {
-  border: 2px solid #777;
+  border-color: #fff;
 }
 div.gallery img {
   width: 100%;
   height: auto;
   border-radius: 43px;
+  padding: 4px;
 }
 
 div.desc {
@@ -52,7 +60,7 @@ div.desc {
   padding: 0.5em;
   border-radius: 43px;
   height: auto;
-  background-color: rgba(119, 119, 119, 0.5);
+  background-color: rgba(41, 41, 41, 0.5019607843);
   margin: 1em auto;
 }
 .text-box p {
@@ -83,6 +91,7 @@ div.desc {
   min-width: 117px;
   border-radius: 43px;
   vertical-align: middle;
+  background-color: rgba(41, 41, 41, 0.5019607843);
 }
 
 .img-col {
