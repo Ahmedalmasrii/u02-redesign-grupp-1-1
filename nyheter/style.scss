@@ -31,7 +31,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     background-color: $primary-color;
-    border:1px solid $border-color;
+    border: 1px solid $border-color;
     color: $text-color;
     border-radius: 20px;
     padding: 15px;
@@ -56,17 +56,17 @@ h1 {
     border-radius: 20px;
 }
 
-.news-button:checked + .news-label + .news-content {
+.news-button:checked+.news-label+.news-content {
     display: block;
 }
 
-@media screen and (min-width: 820px){
-.news-container {
-    width: 50%;
-}
+@media screen and (min-width: 820px) {
+    .news-container {
+        width: 50%;
+    }
 
-.three-news-block {
-    margin-top: 10%;
-    margin-bottom: 18%;
-}
+    .three-news-block {
+        margin-top: 10%;
+        margin-bottom: 18%;
+    }
 }
