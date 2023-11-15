@@ -3,7 +3,7 @@
 @import '../mixin';
 
 body {
-    background-image: url(../bilder/nyheter-background.png);
+    background-image: url(../bilder/nyheter-background.webp);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -13,7 +13,7 @@ body {
     padding-bottom: 15%;
 }
 
-h1 {
+.nyheter-rubrik {
     @include heading-style;
     font-family: $text-font;
 }
