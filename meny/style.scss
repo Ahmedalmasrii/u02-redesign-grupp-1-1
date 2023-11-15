@@ -2,21 +2,28 @@
 @import '../breakpoints';
 @import '../mixin';
 
-.main-meny {
-   background: linear-gradient(0deg, rgba(41,41,41,1) 61%, rgba(255,255,255,1) 100%);
-    
-    h1 {
-        @include heading-style;
-        font-family: $text-font;
-    }
+body {
+   background-image: url(../bilder/asian.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
     
 }
 
+.main-meny {
+  background-color: $primary-color;
+  width: 90%;
+}
+
+.titel {
+  @include heading-style;
+  font-family: $text-font;
+}
 
 .gallery-box {
     display: flex;
-    justify-content: center;
     margin: 1em;
+    justify-content: center;
 }
 
 
@@ -25,17 +32,17 @@ div.gallery {
     margin: 5px;
     border: 2px solid $border-color;
     border-radius: 43px;
-    float: left;
-    width: 180px;
+    max-width: 180px;
   
     &:hover {
-      border: 2px solid #777;
+      border-color: $text-color;
     }
   
     img {
       width: 100%;
       height: auto;
       border-radius: 43px;
+      padding: 4px;
     }
   }
   
@@ -52,7 +59,7 @@ div.gallery {
     padding: 0.5em;
     border-radius: 43px;
     height: auto;
-    background-color: rgba(119, 119, 119, 0.5);
+    background-color: $primary-color;
     margin: 1em auto; // 1=top and bottom -- auto=left and right
 
     p {
@@ -97,25 +104,34 @@ div.gallery {
 }
 
 p {
-    color: #fff;
+    color: $text-color;
     font-family: $text-font;
 }
 
 .desc {
-    color: #fff;
+    color: $text-color;
 }
 
 h2 {
     text-align: center;
-    color: #fff;
+    color: $text-color;
 }
 
 @mixin mobile-font-size($size) {
     font-size: 16px;
+    .gallery-box {
+      max-width: 150px;
+
+    }
+    .main-meny {
+      background-color: $primary-color;
+      width: 100%;
+    }
   }
   
   @mixin desktop-font-size($size) {
     @media (min-width: 768px) {
       font-size: 18px;
     }
+
   }
