@@ -1,13 +1,13 @@
-body {
+.background-container {
   background-image: url(../bilder/nyheter-background.webp);
-  background-size: cover;
+  background-size: cover, 100%;
   background-position: center;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
-  margin-top: auto;
+}
+
+body {
+  margin: 0;
   color: #fff;
-  padding-bottom: 15%;
 }
 
 .nyheter-rubrik {
@@ -23,6 +23,10 @@ body {
   width: 200px;
   padding: 5px;
   font-family: Merriweather, serif;
+}
+
+.main-nyheter {
+  background-color: transparent;
 }
 
 .news-container {
