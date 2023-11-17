@@ -1,9 +1,10 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/P-3MvOyk)
+Här bifogar vi tre dokument.
 
-Vi har följande struktur i projektet:
+1. Textdokumentation: underlag för alla våra möten samt projektplanering.
+   [Dokumentation U02.pdf](https://github.com/chas-academy/u02-redesign-grupp-1-1/files/13394135/Dokumentation.U02.pdf)
 
-Första sidan som då är "Hem" ligger i rooten av katalogen.
-De resterande sidorna ligger under en egen katalog.
+2. Dokumentation för våra UX personas.
+   [Intervjuer + personas.pdf](https://github.com/chas-academy/u02-redesign-grupp-1-1/files/13394131/Intervjuer.%2B.personas.pdf)
 
-
-Test push
+3. Dokumentation för våra prototyper (både low fidelity samt high fidelity) gjorda i Figma.
+   [Prototyper Figma.pdf](https://github.com/chas-academy/u02-redesign-grupp-1-1/files/13394145/Prototyper.Figma.pdf)
